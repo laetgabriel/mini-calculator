@@ -1,4 +1,6 @@
-package org.gabriellaet.operacoes;
+package org.gabriellaet.model.operacoes.entities;
+
+import org.gabriellaet.model.operacoes.exceptions.NumberException;
 
 public class Operacao {
 

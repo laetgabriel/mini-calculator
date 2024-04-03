@@ -1,4 +1,4 @@
-package org.gabriellaet.operacoes;
+package org.gabriellaet.model.operacoes.exceptions;
 
 public class NumberException extends RuntimeException{
 

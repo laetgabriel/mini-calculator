@@ -1,8 +1,8 @@
-package org.gabriellaet.operacoes.impl;
+package org.gabriellaet.model.operacoes.entities.impl;
 
-import org.gabriellaet.operacoes.NumberException;
-import org.gabriellaet.operacoes.Operacao;
-import org.gabriellaet.operacoes.OperacaoImplements;
+import org.gabriellaet.model.operacoes.entities.Operacao;
+import org.gabriellaet.model.operacoes.OperacaoImplements;
+import org.gabriellaet.model.operacoes.exceptions.NumberException;
 
 public class Divisao extends Operacao implements OperacaoImplements {
 
@@ -14,4 +14,5 @@ public class Divisao extends Operacao implements OperacaoImplements {
         }
         return num1/num2;
     }
+
 }

@@ -1,4 +1,4 @@
-package org.gabriellaet.operacoes;
+package org.gabriellaet.model.operacoes;
 
 public interface OperacaoImplements {
 

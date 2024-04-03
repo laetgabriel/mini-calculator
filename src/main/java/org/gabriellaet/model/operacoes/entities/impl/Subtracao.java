@@ -1,7 +1,7 @@
-package org.gabriellaet.operacoes.impl;
+package org.gabriellaet.model.operacoes.entities.impl;
 
-import org.gabriellaet.operacoes.Operacao;
-import org.gabriellaet.operacoes.OperacaoImplements;
+import org.gabriellaet.model.operacoes.entities.Operacao;
+import org.gabriellaet.model.operacoes.OperacaoImplements;
 
 public class Subtracao extends Operacao implements OperacaoImplements {
 
