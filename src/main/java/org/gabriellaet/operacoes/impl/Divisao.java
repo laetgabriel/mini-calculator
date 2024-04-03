@@ -8,12 +8,7 @@ public class Divisao extends Operacao implements OperacaoImplements {
 
     @Override
     public Double calculo(Double num1, Double num2) {
-        if(Double.isNaN(num1) || Double.isNaN(num2)){
-            throw new NumberException("not a number");
-        }
-        if (num1 == 0 && num2 == 0){
-            throw new NumberException("args is 0");
-        }
+        Operacao.isNum(num1, num2);
         if(num2 == 0){
             throw new NumberException("undefined result");
         }

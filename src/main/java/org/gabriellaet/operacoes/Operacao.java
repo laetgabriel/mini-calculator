@@ -13,6 +13,12 @@ public class Operacao {
         this.num2 = num2;
     }
 
+    public static void isNum(Double num1, Double num2){
+        if(Double.isNaN(num1) || Double.isNaN(num2)){
+            throw new NumberException("not a number");
+        }
+    }
+
     public Double getNum1() {
         return num1;
     }
