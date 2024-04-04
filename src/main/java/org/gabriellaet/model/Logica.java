@@ -1,10 +1,10 @@
-package org.gabriellaet.model.operacoes;
+package org.gabriellaet.model;
 
-import org.gabriellaet.model.operacoes.entities.impl.Divisao;
-import org.gabriellaet.model.operacoes.entities.impl.Multiplicacao;
-import org.gabriellaet.model.operacoes.entities.impl.Soma;
-import org.gabriellaet.model.operacoes.entities.impl.Subtracao;
-import org.gabriellaet.model.operacoes.exceptions.InvalidOperatorException;
+import org.gabriellaet.model.entities.impl.Divisao;
+import org.gabriellaet.model.entities.impl.Multiplicacao;
+import org.gabriellaet.model.entities.impl.Soma;
+import org.gabriellaet.model.entities.impl.Subtracao;
+import org.gabriellaet.model.exceptions.InvalidOperatorException;
 
 public class Logica {
 

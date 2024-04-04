@@ -1,6 +1,6 @@
-package org.gabriellaet.model.operacoes.entities;
+package org.gabriellaet.model.entities;
 
-import org.gabriellaet.model.operacoes.Logica;
+import org.gabriellaet.model.Logica;
 
 public class Calculadora {
 

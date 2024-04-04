@@ -1,4 +1,4 @@
-package org.gabriellaet.model.operacoes.exceptions;
+package org.gabriellaet.model.exceptions;
 
 public class InvalidOperatorException extends RuntimeException{
 
